@@ -47,10 +47,15 @@ text-decoration: none; /* Устранение подчёркивания ссы
      
 }
 
+
 .main-navigation a {text-decoration: none;} /*убираем подчеркивание ссылок*/
 
 a.icon-basket
 {  margin-left:  245px;
 text-decoration: none; }
 
-slider-item
+.slider-item img
+{
+    margin-top: 132px;
+    margin-right: 31px;
+}   

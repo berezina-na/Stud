@@ -1,20 +1,15 @@
 body
 {font-family: 'Roboto', sans-serif;}
 
-.container {
-    /*width: 880px;*/
-    position:absolute;
-    margin: 0 auto;
-    padding: 0 10px;
+.main-header-shop {
+    background-color: #eeeeee; /*делает цвет фона header серым*/
+    width: 1440px;
+    height: 355px;
 }
-
-  .main-header-shop {
-  background-color: #eeeeee; /*делает цвет фона header серым*/
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1440px;
-  height: 546px;
+.container
+{
+    width: 1160px;
+    margin: 0 140px;
 }
 
 
@@ -106,7 +101,13 @@ div.filter-left
 /*height: 2220px;*/
    
 }
+/*кнопка Показать*/
+.filter-form buttom.btn {
 
+  background: #eeeeee; /* фон кнопки */
+  width: 260px;
+    height: 50px;
+} 
 
 
  div.right-shop 
@@ -119,3 +120,4 @@ position: absolute;
   height: 2220px;
 
 }
+

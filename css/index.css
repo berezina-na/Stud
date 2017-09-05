@@ -1,0 +1,56 @@
+body 
+
+{font-family: 'Roboto', sans-serif;}
+
+.main-header {
+    background-color: #eeeeee; /*делает цвет фона header серым*/
+    width: 1440px;
+    height: 546px;
+}
+.container
+{
+    width: 1160px;
+    margin: 0 140px;
+}
+header 
+{
+    display: block;
+}
+figure.logo-header
+{
+    /*position: relative;*/
+    float: left;
+margin-top: 50px; 
+}
+img {border: 0;}
+
+.main-navigation
+{float: right;
+    margin-top: 83px;
+}
+.main-navigation ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+   }
+
+.main-navigation li 
+{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: top;
+    margin-left: 50px;
+ text-transform: uppercase; /*делает буквы заглавными*/
+  list-style: none; /*Отключение отображения маркеров. */
+text-decoration: none; /* Устранение подчёркивания ссылок. */
+     
+}
+
+.main-navigation a {text-decoration: none;} /*убираем подчеркивание ссылок*/
+
+a.icon-basket
+{  margin-left:  245px;
+text-decoration: none; }
+
+slider-item

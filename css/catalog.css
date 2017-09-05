@@ -1,29 +1,49 @@
+body
+{font-family: 'Roboto', sans-serif;}
+
 .container {
-    width: 880px;
+    /*width: 880px;*/
+    position:absolute;
     margin: 0 auto;
     padding: 0 10px;
 }
 
   .main-header-shop {
-  background-color:red;
+  background-color: #eeeeee; /*делает цвет фона header серым*/
   position: absolute;
   left: 0px;
   top: 0px;
   width: 1440px;
-  height: 355px;
-  z-index: 126;
+  height: 546px;
 }
 
-.top_menu {
+
+
+
+
+
+
+/*логотип*/
+.logo-header-shop {
+  position:absolute;
+  top: 49px; 
+  left: 140px; /*отступ от левого края*/
+  width: 160px; /*ширина логотипа*/
+}
+nav.top_menu {
   position: absolute;
   left: 0px;
   top: 0px;
   width: 1440px;
   height: 3213px;
-  z-index: 138;
 }
-.top-menu li {
-  float: left;
+.top-menu ul {
+  position: absolute;
+  left: 500px;
+  top: 83px; 
+  padding: 0;
+  margin: 0 auto;
+  list-style-position: none;
   font-size: 16px;
   font-family: "Roboto";
   color: rgb(0, 0, 0);
@@ -31,10 +51,13 @@
  text-transform: uppercase; /*делает буквы заглавными*/
   list-style: none; /*Отключение отображения маркеров. */
 }
-.top-menu li a {
+   .top-menu li {
    display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
-   padding: 66.52px;  /* Внутри блочные отступы. */
+   position: relative;
+   float: left;
+   padding: 0px 24px ;  /* Внутри блочные отступы. */
    text-decoration: none; /* Устранение подчёркивания ссылок. */
+   
    /*Заголовок "Магазин готовых шаблонов*/
 .h1-shop {
   font-size: 10px;
@@ -42,14 +65,57 @@
   color: rgb(0, 0, 0);
   line-height: 1;
   text-align: center;
-  -moz-transform: matrix( 5.4190018399672,0,0,5.4190018399672,0,0);
-  -webkit-transform: matrix( 5.4190018399672,0,0,5.4190018399672,0,0);
-  -ms-transform: matrix( 5.4190018399672,0,0,5.4190018399672,0,0);
   position: absolute;
   left: 658.769px;
   top: 212.426px;
-  z-index: 127;
+
+}
+
+h3.filter-h
+{
+ text-transform: uppercase; /*делает буквы заглавными*/
+
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+.filter
+{
+position: absolute;
+  left: 140px;
+  top: 356px; 
+width: 1160px;
+ /* height: 2220px;*/
+ 
+}
+
+h3.filter
+{
+ text-transform: uppercase; /*делает буквы заглавными*/
+
+}
+
+div.filter-left
+{
+  position: absolute;
+  float: left;
+  width: 260px;
+/*height: 2220px;*/
+   
 }
 
 
 
+ div.right-shop 
+{
+position: absolute;
+  float: right;
+  left: 400px;
+  /*top: 356px; */
+  width: 760px;
+  height: 2220px;
+
+}

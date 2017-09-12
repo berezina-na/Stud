@@ -446,131 +446,104 @@ template {
   display: none;
 }
 
-
-
-
-
-
-
-body
+body 
 {font-family: 'Roboto', sans-serif;}
 
 .main-header-shop {
     background-color: #eeeeee; /*делает цвет фона header серым*/
-    width: 1440px;
     height: 355px;
+    width: 1160px;
 }
 .container
 {
     width: 1160px;
-    margin: 0 140px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
-
-
-
-
-
-
-
-/*логотип*/
-figure.logo-header-shop
+.logo-header-shop
 {
     float: left;
-margin-top: 50px; 
+  margin: 50px 0px 0px 0px;
+  width: 160px; 
 }
-nav.top_menu {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1440px;
-  height: 3213px;
+
+.top-menu
+{
+  float: right;
+  margin-top: 83px;
+  
 }
 .top-menu ul {
-  position: absolute;
-  left: 500px;
-  top: 83px; 
-  padding: 0;
-  margin: 0 auto;
-  list-style-position: none;
-  font-size: 16px;
-  font-family: "Roboto";
-  color: rgb(0, 0, 0);
-  /*margin-right: 66.52px;*/
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+   }
+
+
+.top-menu li 
+{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: top;
+    margin-left: 48px;
  text-transform: uppercase; /*делает буквы заглавными*/
   list-style: none; /*Отключение отображения маркеров. */
+text-decoration: none; /* Устранение подчёркивания ссылок. */
+     
 }
-   .top-menu li {
-   display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
-   position: relative;
-   float: left;
-   padding: 0px 24px ;  /* Внутри блочные отступы. */
-   text-decoration: none; /* Устранение подчёркивания ссылок. */
    
    /*Заголовок "Магазин готовых шаблонов*/
-.h1-shop {
-  font-size: 10px;
+.h1-shop h1 {
+   clear: both;
+  display: block;
+  font-size: 55px;
   font-family: "Roboto";
   color: rgb(0, 0, 0);
   line-height: 1;
   text-align: center;
-  position: absolute;
-  left: 658.769px;
-  top: 212.426px;
+  margin-top: 200px;
+  margin-bottom: 117px;
+  margin-left: 220px;
+
 
 }
-
-h3.filter-h
-{
- text-transform: uppercase; /*делает буквы заглавными*/
-
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-
-form {
-    display: block;
-    margin-top: 0em;
-}
-.filter
-{
-position: absolute;
-  left: 140px;
-  top: 356px; 
-width: 1160px;
- /* height: 2220px;*/
- 
-}
-
-h3.filter
-{
- text-transform: uppercase; /*делает буквы заглавными*/
-
-}
-
-div.filter-left
-{
-  position: absolute;
+.filter-left {
   float: left;
   width: 260px;
-/*height: 2220px;*/
-   
 }
-/*кнопка Показать*/
-.filter-form buttom.btn {
 
-  background: #eeeeee; /* фон кнопки */
-  width: 260px;
-    height: 50px;
-} 
-
-
- div.right-shop 
+.filter-h
 {
-position: absolute;
+ text-transform: uppercase; /*делает буквы заглавными*/
+
+}
+
+.right-shop 
+{
   float: right;
-  left: 400px;
-  /*top: 356px; */
   width: 760px;
   height: 2220px;
 
 }
 
+.catalog-item {
+  display: inline-block;
+  position: relative;
+  width: 360px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.social {
+  clear: both;
+}

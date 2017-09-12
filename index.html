@@ -7,7 +7,7 @@
     </head>
     <body>
         <header class="main-header">
-            <div class="container">
+            <div class="container clearfix">
                 <figure class="logo-header">
                     <a href="index.html">
                         <img src="img/nerds-logo.png" alt="Логотип">
@@ -25,15 +25,19 @@
             <div class="slider">
                 <input type="radio" id="btn1" checked>
                 <input type="radio" id="btn2">
-                <input type="radio" id="btn3" >                
-            </div>
+                <input type="radio" id="btn3">                
+                <div class="slider-control">
+                    <label for="btn1"></label>
+                    <label for="btn2"></label>
+                    <label for="btn3"></label> 
+                </div>                   
             <div class="slider-item">
                 <h1>Долго, дорого, скрупулезно.</h1>
                 <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
                 <a class="slide-button" href="">Узнать больше</a>
-                <img src="img/slide1.jpg">
+                <img src="img/slide1.png">
             </div>
-            <div class="slider-item">
+            <!--<div class="slider-item">
                 <h1>Любим математику как никто другой</h1>
                 <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
                 <a class="slide-button" href="">Узнать больше</a>
@@ -44,10 +48,12 @@
                 <p>Работаем днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
                 <a class="slide-button" href="">Узнать больше</a>
                 <img src="img/slide3.jpg">               
-            </div>
+            </div>-->
+            
              </div> 
         </header>        
         <main class="page">
+            <div class="container clearfix">
             <div class="product">
                 <section class="product-item">
                     <figure>
@@ -65,16 +71,18 @@
                     <span class="text-product">Покорите топ-10 приложений в AppStore и Google Play</span>
                     <a class="product-button product-button-green" href="">Заказать</a>
                 </section>    
-                <section class="product-item">
+                <section class="product-item1">
                     <figure>
                         <img src="img/illustration-3.jpg" alt="Презентации">
                     </figure>
                     <h2 class="name-product">Презентации</h2>  
                     <span class="text-product">Вы даже не подозреваете, насколько вы изумительны!</span>
                     <a class="product-button product-button-yellow" href="">Заказать</a>
-                </section>                             
+                </section>   
+            </div>                          
             </div>
-            <div class="promo-block"> 
+            <div class="container">
+                <div class="promo-block clearfix"> 
                 <div class="promo-block-product">
                     <h2>Мы-маленькая, но гордая дизайн-студия из Краснодара</h2>
                     <span>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы</span>
@@ -105,16 +113,18 @@
                         </div>    
                     </div>                                      
                 </div>
+                </div>
             </div>  
-            <div class="Examples-of-work">
+            <div class="Examples-of-work clearfix">
                 <a class="Examples-of-work-item" href=""><img src="img/logo-1.png"></a>  
                 <a class="Examples-of-work-item" href=""><img src="img/logo-2.png"></a> 
                 <a class="Examples-of-work-item" href=""><img src="img/logo-3.png"></a> 
                 <a class="Examples-of-work-item" href=""><img src="img/logo-4.png"></a> 
             </div>
         <div class="Block-contacts">
+                
             <div class="Contacts">
-                <!--Здесь должна быть карта-->
+
                 <h3>Nёrds design studio</h3>
                 <span class="adres">191186, Санкт-Петербург</span>
                 <span class="adres">ул.Конюшенная, д.19/8</span>

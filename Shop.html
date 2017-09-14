@@ -29,52 +29,64 @@
             </div>
         </header>
         <main class="Shop">
-            <div class="container clearflex"> 
+            <div class="container clearfix"> 
                 <div class="filter">
                     <aside class="filter-left">
                         <form class="filter-form">
+                           <div class=filtr> 
                             <h3 class="filter-h">Стоимость:</h3>
+                                <div class="range-control">
+                                    <div class="scale">
+                                        <div class="bar">
+                                        </div>  
+                                    </div>  
+                                    <input type="range" min="0" max="20000" stap="1" value="15000" > 
+                                </div>       
+                                <div class="price-control">
+                                    <span>от</span>
+                                    <input type="number" class="min-price" value="0">
+                                    <span>до</span>
+                                    <input type="number" class="max-price" value="15000">
+                                </div>
+                           </div>    
+                           <div class="filtr">
+                           <h3 class=filter-h>Сетка:</h3>
                             <div class="filter-shop">
-                                <input type="range" min="0" max="20000" stap="1" value="15000" >    
-                                <span>от</span>
-                                <input type="number" value="0">
-                                <span>до</span>
-                                <input type="number" value="15000">
-                            </div>
-                            <h3 class=filter-h>Сетка:</h3>
-                            <div class="filter-shop">
-                                <input type="checkbox">                    
+                                <input type="radio" checked>                    
                                 <label for="">Адаптивная</label>
                             </div>
                             <div class="filter-shop">
-                                <input type="checkbox">                    
+                                <input type="radio">                    
                                 <label for="">Фиксированная</label>
                             </div>      
                             <div class="filter-shop">
-                                <input type="checkbox">                    
+                                <input type="radio">                    
                                 <label for="">Резиновая</label>
                             </div>  
+                           </div>
+                        <div class="filtr">
                             <h3 class=filter-h>Особенности:</h3>
                             <div class="filter-shop">
-                                <input type="radio">                    
+                                <input type="checkbox" checked>                    
                                 <label for="">Слайдер</label>
                             </div>
                             <div class="filter-shop">
-                                <input type="radio">                    
+                                <input type="checkbox">                    
                                 <label for="">Блок преимуществ</label>
                             </div>
                             <div class="filter-shop">
-                                <input type="radio">                    
+                                <input type="checkbox">                    
                                 <label for="">Новости</label>
                             </div> 
                             <div class="filter-shop">
-                                <input type="radio">                    
+                                <input type="checkbox">                    
                                 <label for="">Галерея</label>
                             </div>                         
                             <div class="filter-shop">
-                                <input type="radio">                    
+                                <input type="checkbox">                    
                                 <label for="">Корзина</label>
-                            </div>                         
+                            </div> 
+                        </div>                            
                             <button class="btn" type="submit"> Показать </button>
                         </form>        
                     </aside>                  
@@ -86,11 +98,12 @@
                             <button>По цене</button>
                             <button>По типу</button>
                             <button>По названию</button>   
+                            <div class="sort-triange">   
+                                <button class="sort-triange-down"><img src="img/icon-down-dir.jpg"></button>
+                                <button class="sort-triange-up"><img src="img/icon-up-dir.jpg"></button>
+                            </div> 
                         </div>
-                        <div class="sort-triangle">   
-                            <button class="sort-triange-down"></button>
-                            <button class="sort-triange-up"></button>
-                        </div> 
+
                     </div> 
                     <div class="catalog-items">
                         <div class="catalog-item">
@@ -99,7 +112,7 @@
                                 <div class="browser-circle"></div>
                                 <div class="browser-circle"></div>
                             </div>
-                            <div class="tovar">
+                            <div class="item">
                                 <img src="img/img-sedona.jpg" widht="" height="" alt="Sedona">
                             </div>
                             <div class="catalog-item-info"> 
@@ -114,7 +127,7 @@
                                 <div class="browser-circle"></div>
                                 <div class="browser-circle"></div>
                             </div>
-                            <div class="tovar">
+                            <div class="item">
                                 <img src="img/img-pink.jpg" widht="" height="" alt="Pink">
                             </div>
                             <div class="catalog-item-info"> 
@@ -129,7 +142,7 @@
                                 <div class="browser-circle"></div>
                                 <div class="browser-circle"></div>
                             </div>
-                            <div class="tovar">
+                            <div class="item">
                                 <img src="img/img-barbershop.jpg" widht="" height="" alt="Barbershop">
                             </div>
                             <div class="catalog-item-info"> 
@@ -144,7 +157,7 @@
                                 <div class="browser-circle"></div>
                                 <div class="browser-circle"></div>
                             </div>
-                            <div class="tovar">
+                            <div class="item">
                                 <img src="img/img-mishka.jpg" widht="" height="" alt="Mishka">
                             </div>
                             <div class="catalog-item-info"> 
@@ -159,7 +172,7 @@
                                 <div class="browser-circle"></div>
                                 <div class="browser-circle"></div>
                             </div>
-                            <div class="tovar">
+                            <div class="item">
                                 <img src="img/img-aplus.jpg" widht="" height="" alt="A Plus">
                             </div>
                             <div class="catalog-item-info"> 
@@ -174,7 +187,7 @@
                                 <div class="browser-circle"></div>
                                 <div class="browser-circle"></div>
                             </div>
-                            <div class="tovar">
+                            <div class="item">
                                 <img src="img/img-kvast.jpg" widht="" height="" alt="Кваст">
                             </div>
                             <div class="catalog-item-info"> 

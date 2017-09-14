@@ -517,20 +517,153 @@ text-decoration: none; /* Устранение подчёркивания ссы
 .filter-left {
   float: left;
   width: 260px;
+  margin-right: 140px;
+  margin-top: 65px;
 }
 
+.filter-h h3{
+  margin-top: 0px;
+  margin-bottom: 56px;
+  text-transform: uppercase; /*делает буквы заглавными*/
+  font-size: 18px;
+  color: #000;
+}
+
+.filter {
+ 
+  width: 260px;
+}
+.filtr {
+  margin-bottom: 62px;
+}
+.range-control {
+
+margin-top: 66px;
+    margin-bottom: 15px;
+    padding: 0 30px;
+    height: 80px;
+    background: #eeeeee;
+    overflow: hidden;
+}
+
+.range-control .scale {
+    margin-top: 39px;
+    height: 2px;
+    background: #00ca74;
+}
+
+.price-control {
+  margin-top: 14px;
+
+}
+
+.price-control span {
+  font-size: 16px; 
+}
+
+.price-control .min-price {
+    margin-right: 12px;
+}
+
+
+.price-control input {
+    margin-left: 10px;
+    padding: 16px 16px;
+    width: 80px;
+    border: none;
+    background: #eeeeee;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+.price-control .max-price {
+    margin-left: 30px;}
+
+.filtr {
+  margin-bottom: 62px;
+}
+.filter-h {
+  margin-top: 0px;
+  margin-bottom: 22px;}
+
+
+.filter-shop  {
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.filter-shop input {
+size: 25px;
+}
+
+.filter-shop label { 
+    font-size: 16px;
+    color: black;
+}
 .filter-h
 {
  text-transform: uppercase; /*делает буквы заглавными*/
 
 }
 
+.btn
+{padding: 20px 89px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    background: #eeeeee;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+
 .right-shop 
 {
-  float: right;
+  float: left;
+  margin-top: 60px;
   width: 760px;
   height: 2220px;
 
+}
+
+.sort-shop {
+  margin-bottom: 59px;
+}
+
+.sort-shop-menu {
+  text-transform: uppercase;
+}
+.sort-shop-menu span {
+  margin-right: 256px;
+  width: 133px;
+}
+.sort-shop-menu button
+{padding: 0px 26px 0px 0px;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    background: none;
+
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+.sort-triange div {
+  width: 40px;
+}
+
+.sort-triange-down {
+  border: none;
+  padding: 0 0 0 0;
+}
+.sort-triange-up {
+  border: none;
+  padding: 0 0 0 0;
 }
 
 .catalog-item {
@@ -538,6 +671,39 @@ text-decoration: none; /* Устранение подчёркивания ссы
   position: relative;
   width: 360px;
 }
+
+.browser-gray {
+  width: 360px;
+  height: 40px;
+  background: #e9e9e9;
+}
+
+.browser-circle {
+    display: inline-block;
+    margin-left: 16px;
+    width: 14px;
+    height: 14px;
+    margin-top: 13px;
+    left: 16px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.catalog-item-info {
+  position: absolute;
+margin-top: -233px;
+height: 233px;
+width: 360px;
+background: #eeeeee;
+}
+
+.item-info-h {
+margin-top: 36px;
+margin-left: 145px;
+margin-bottom: 29px;
+}
+
+
 .clearfix::after {
     content: "";
     display: table;

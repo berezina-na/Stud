@@ -238,16 +238,17 @@ template {
 
 body 
 {font-family: 'Roboto', sans-serif;}
-
-.main-header {
-    background-color: #eeeeee; /*делает цвет фона header серым*/
-}
 .container
 {
-    width: 1200px;
+    width: 1160px;
     margin: 0 auto;
     padding: 0 20px;
 }
+.main-header {
+    background-color: #eeeeee; 
+    width: 1160px
+}
+
 figure.logo-header
 {
     float: left;
@@ -256,8 +257,10 @@ figure.logo-header
 
 .main-navigation
 {
-  float: right;
+  float: left;
   margin-top: 83px;
+  margin-left: 200px;
+  width: 800px;
   
 }
 .main-navigation ul {
@@ -286,9 +289,15 @@ a.icon-basket
 {  margin-left:  245px;
 text-decoration: none; }
 
+#basket li:last-child {float: right;
+
+}
+
+
+
 .slider
-{
-  clear: both;
+{clear: both;
+  
   position: relative;
   width: 1160px;
   height: 415px;
@@ -377,10 +386,6 @@ word-wrap: break-word;
     clear: both;
 }
 
-.container {
-  padding: 0 10px;
-  width: 1160px;
-}
 
 .product {
   padding: 80px 0 80px 0;
@@ -397,11 +402,12 @@ margin-right: 100px;
     width: 300px;
 
 }
-section.product-item1 {
-display: inline-block;
-margin-right: 60px;
-    float: left;
-    width: 300px;
+
+
+section.product-item:last-child {
+
+margin-right: 0px;
+    
 
 }
 .product-item figure{
@@ -414,8 +420,9 @@ margin-right: 60px;
   margin-bottom: 28px;
 }
 
-.product-item span {
+.text-product {
   font-size: 16px;
+  margin-bottom: 0px;
 
 }
 
@@ -427,7 +434,7 @@ margin-right: 60px;
     font-size: 16px;
     line-height: 18px;
     border-radius: 2px;
-   
+   margin-top: 35px;
 }
 
 .product-button-red {
@@ -439,6 +446,7 @@ margin-right: 60px;
 }
 
 .product-button-yellow {
+  clear: both;
   background: #efc84a;
 }
 
@@ -514,12 +522,26 @@ span.stat-text {
     display: table;
     clear: both;
 }
+.Examples-of-work {
+    padding-top: 45px;
+    width: 1160;
+    border-bottom: 2px solid #eee;
+    font-size: 0;
+}
 
-.Examples-of-work img {
+.Examples-of-work-item {
+  
   display: inline-block;
    vertical-align: top;
-   margin-right: 16px;
+   margin-left: 31px;
+   margin-bottom: 50px;
+   margin-right: 95px;
 }
+.Examples-of-work-item {
+  
+  margin-right: 44px;
+}
+
 .clearfix::after {
     content: "";
     display: table;

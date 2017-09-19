@@ -379,7 +379,12 @@ word-wrap: break-word;
   
   float: right;
   margin-top: -318px;
+
   }
+
+
+
+
 .clearfix::after {
     content: "";
     display: table;
@@ -462,6 +467,7 @@ width: 1160px;
   height: 527px;
   border-bottom: 2px solid;
   border-bottom-color: #eeeeee;
+  font-size: 0;
 }
 
 .promo-block-product {
@@ -486,13 +492,28 @@ margin-top: 0px;
   font-size: 16px;
 margin-top: 0px;
   margin-bottom: 36px;
+  text-transform: uppercase;
 }
-.list-product li {
+.promo-block ul {
+padding: 0;
+}
+.promo-block li {
     position: relative;
+    list-style: none;
     margin-bottom: 35px;
-    padding-left: 37px;
+    font-size: 16px;
+    
 }
 
+.promo-block li::before
+{content: "";
+  width:25px;
+    height:2px;
+  margin-right:10px;
+background:#fb565a;
+
+    display: inline-block;
+    vertical-align: middle;}
 
 
 
@@ -547,15 +568,125 @@ span.stat-text {
     display: table;
     clear: both;
 }
+.Block-contacts {
+width: 1200;
+margin-top: 80px;
+height: 417px;
+background-image: url(../img/map1.jpg); 
+}
+
 
 .Contacts {
+position: absolute;
  margin-top: 55px;
  background: #ffffff;
- margin-left: 10px;
+ margin-left: 20px;
+ height: 308px;
  width: 320px;
+ font-size: 0px;
 }
 .Contacts h3 {
   margin-top: 54px;
   font-size: 18px;
+  margin-left: 50px;
   text-transform: uppercase; 
+}
+
+.Contacts span {
+  font-size: 16px;
+  margin-top: 34px;
+  margin-left: 50px;
+  margin-bottom: 6px;
+  color: #8f8f8f;
+}
+
+ .Contacts a {
+display: block;
+  margin-left: 50px;
+margin-top: 14px;
+font-size: 16px;
+}
+
+.Contacts a.btn-adr {
+  width: 220px;
+    padding: 19px 0;
+    margin: 0 auto;
+    margin-top: 41px;
+text-align: center;
+font-size: 16px;
+    font-weight: 300;
+      text-transform: uppercase; 
+    display: block;
+        border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+    background: #fb565a;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.main-footer {
+  padding-top: 69px;
+  padding-bottom: 70px;
+}
+
+.footer-social-btn {
+float: left;
+width: 261px;
+font-size: 0;
+}
+
+.social-btn {
+  display: inline-block;
+  position: relative;
+  width: 79px;
+  height: 80px;
+  margin-right: 12px;
+  border-radius: 50%;
+  background: #e1e1e1;
+  }
+.social-btn::before {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    line-height: 62px;
+    color: #fff;
+    text-decoration: none;
+}
+.icon-vk::before {
+    content: "VK";
+}
+a.social-btn:last-child {
+margin-right: 0px;
+} 
+
+.footer-discount
+{
+  float: left;
+  margin-left: 140px;
+  font-size: 0;
+}
+
+.footer-discount h2{
+  margin: 0;
+font-size: 36px;
+}
+
+.footer-discount h6 {
+  margin: 13px 0px 0 0;
+  font-size: 16px;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }

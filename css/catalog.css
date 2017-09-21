@@ -452,7 +452,7 @@ body
 .main-header-shop {
     background-color: #eeeeee; /*делает цвет фона header серым*/
     height: 355px;
-    width: 1160px;
+    width: 1200px;
 }
 .container
 {
@@ -492,8 +492,32 @@ body
 text-decoration: none; /* Устранение подчёркивания ссылок. */
      
 }
+
+.activ { 
+  padding-bottom: 13px;
+  border-bottom: 2px solid #fb565a;
+}
+
+
+.top-menu a {text-decoration: none; font-family: 'Roboto' } /*убираем подчеркивание ссылок*/
+
+
+a.icon-basket
+{  margin-left:  245px;
+text-decoration: none; }
+
+
+.top-menu li:last-child {float: right;
+
+}
+
+a.icon-basket img {margin-right: 26px;}
+
    
    /*Заголовок "Магазин готовых шаблонов*/
+.h1-shop 
+{padding-top: 200px;}   
+
 .h1-shop h1 {
    clear: both;
   display: block;
@@ -502,7 +526,7 @@ text-decoration: none; /* Устранение подчёркивания ссы
   color: rgb(0, 0, 0);
   line-height: 1;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 0px;
   margin-bottom: 117px;
   margin-left: 220px;
 
@@ -513,6 +537,15 @@ text-decoration: none; /* Устранение подчёркивания ссы
     display: table;
     clear: both;
 }
+.shop {
+background-color: #ffffff;
+
+    width: 1200px;
+}
+
+.container { width: 1160px;
+    margin: 0 auto;
+    padding: 0 0;}
 
 .filter-left {
   float: left;
@@ -709,8 +742,33 @@ opacity: 0;
 margin-top: 36px;
 margin-left: 145px;
 margin-bottom: 29px;
+font-size: 18px;
+  text-transform: uppercase;
 
 }
+
+.item-info {
+  display: block;
+   margin-right: 40px;
+  margin-left: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.catalog-item-btm {
+  display: block;
+  margin-top: 30px;
+  padding: 19px 60px;
+  font-size: 16px;
+  margin-right: 80px;
+  margin-left: 80px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #fb565a;
+}
+
+
 
 .page-nav {
   margin-top: 60px;

@@ -238,16 +238,19 @@ template {
 
 body 
 {font-family: 'Roboto', sans-serif;}
+
+.main-header {
+    background-color: #eeeeee; 
+    width: 1200px
+}
+
 .container
 {
     width: 1160px;
     margin: 0 auto;
     padding: 0 20px;
 }
-.main-header {
-    background-color: #eeeeee; 
-    width: 1160px
-}
+
 
 figure.logo-header
 {
@@ -286,14 +289,13 @@ text-decoration: none; /* Устранение подчёркивания ссы
 .main-navigation a {text-decoration: none; font-family: 'Roboto' } /*убираем подчеркивание ссылок*/
 
 a.icon-basket
-{  margin-left:  245px;
+{  margin-left:  100px;
 text-decoration: none; }
 
-#basket li:last-child {float: right;
+.main-navigation li:last-child {float: right;
 
 }
-
-
+a.icon-basket img { margin-right: 26px;}
 
 .slider
 {clear: both;
@@ -305,25 +307,30 @@ text-decoration: none; }
 
 
 
+  .slider-item-l {float: left;
+  width: 380px;
+  }
 
-
-.slider-item h1 {
-  float: left;
+.slider-item-l h1 {
   margin-top: 85px;
+    display: block;
+
   margin-bottom: 0px;
-width:520px;
+  width: 380px;
+
     font-size: 55px;
     font-weight: 500;
     line-height: 1;
     color: #000;
 }
 
-.slider-item p {
-  display: block;
-    margin-top: 219px;
+.slider-item-l p {
+  margin-top: 0px;
+    display: block;
+    width: 360px;
     padding: 28px 0 0 0;
   font-size: 16px;
-  width:380px;
+
     font-weight: 300;
     line-height: 1;
     color: #000;
@@ -332,13 +339,13 @@ word-wrap: break-word;
 
 
 .slide-button {
-    
+
   display: block;
     padding: 19px 0 ;
-    margin-top: 43px;
+
     font-size: 16px;
     width: 240px;
-   
+   margin-top: 43px;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -374,13 +381,10 @@ word-wrap: break-word;
     border-radius: 50%;
     cursor: auto;
 }
-.slider-item img
-{
-  
-  float: right;
-  margin-top: -318px;
+  .slider-item-r {float: right;}
 
-  }
+
+
 
 
 
@@ -480,6 +484,7 @@ width: 1160px;
   font-size: 45px;
 margin-top: 0px;
   margin-bottom: 40px;
+
 }
 .promo-block span {
   display: block;
@@ -521,8 +526,12 @@ background:#fb565a;
    
   float: right;
   width: 360px;
-}
 
+}
+.logo {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 .stat div {
  display: inline-block;
  vertical-align: top;

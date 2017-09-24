@@ -241,7 +241,7 @@ body
 
 .main-header {
     background-color: #eeeeee; 
-    width: 1200px
+
 }
 
 .container
@@ -578,7 +578,7 @@ span.stat-text {
     clear: both;
 }
 .Block-contacts {
-width: 1200;
+
 margin-top: 80px;
 height: 417px;
 background-image: url(../img/map1.jpg); 
@@ -669,9 +669,7 @@ font-size: 0;
     color: #fff;
     text-decoration: none;
 }
-.icon-vk::before {
-    content: "VK";
-}
+
 a.social-btn:last-child {
 margin-right: 0px;
 } 

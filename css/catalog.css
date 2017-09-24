@@ -452,7 +452,7 @@ body
 .main-header-shop {
     background-color: #eeeeee; /*делает цвет фона header серым*/
     height: 355px;
-    width: 1200px;
+
 }
 .container
 {
@@ -670,12 +670,13 @@ size: 25px;
   text-transform: uppercase;
 }
 .sort-shop-menu span {
-  margin-right: 256px;
+   display: inline-block;
+  margin-right: 150px;
   width: 133px;
 }
 .sort-shop-menu button
 {padding: 0px 26px 0px 0px;
-
+ display: inline-block;
     font-size: 16px;
     font-weight: 500;
     color: #000;
@@ -686,11 +687,10 @@ size: 25px;
     text-decoration: none;
     text-transform: uppercase; 
 }
-.sort-triange div {
-  width: 40px;
-}
+
 
 .sort-triange-down {
+   display: inline-block;
   border: none;
   padding: 0 0 0 0;
 }
@@ -810,7 +810,7 @@ text-decoration: none;
 
 
 .Block-contacts {
-width: 1200;
+
 margin-top: 80px;
 height: 417px;
 background-image: url(../img/map1.jpg); 
@@ -901,9 +901,7 @@ font-size: 0;
     color: #fff;
     text-decoration: none;
 }
-.icon-vk::before {
-    content: "VK";
-}
+
 a.social-btn:last-child {
 margin-right: 0px;
 } 

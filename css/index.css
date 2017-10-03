@@ -298,11 +298,12 @@ text-decoration: none; }
 a.icon-basket img { margin-right: 26px;}
 
 .slider
-{clear: both;
-  
+
+{ clear: both;
   position: relative;
   width: 1160px;
   height: 415px;
+
 }   
 
 
@@ -362,7 +363,8 @@ word-wrap: break-word;
     width: 200px;
     height: 10px;
     text-align: center;
-    z-index: 100;
+    border: 1px dotted green;
+    z-index: 1000;
 }
 .slider input {
     position: absolute;
